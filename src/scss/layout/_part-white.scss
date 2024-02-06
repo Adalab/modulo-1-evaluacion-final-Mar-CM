@@ -1,0 +1,22 @@
+.container {
+    line-height: 30px;
+    padding-top: 34px;
+    padding-left: 13px;
+    &__subtitle {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    &__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    &__p {
+        font-size: 18px;
+
+    }
+}
+
+.container__buy {
+    padding-left: 15px;
+
+}
