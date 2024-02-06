@@ -1,13 +1,13 @@
-header {
-  display: flex;
-  position: fixed;
+.button {
   width: 36.8px;
   height: 36.8px;
-}
-
-.button__nav {
-  background-color: #6c933e;
-  color: white;
-  width: 100%;
-  border: none;
+  display: flex;
+  position: fixed;
+  z-index: 3;
+  &__nav {
+    background-color: $color-primary;
+    color: $white;
+    width: 100%;
+    border: none;
+  }
 }

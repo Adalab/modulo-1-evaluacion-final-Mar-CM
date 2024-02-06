@@ -1,0 +1,53 @@
+.container__school {
+    background-color: $color-secondary;
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 40px;
+    font-family: $font-text;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    &--title {
+        font-size: 12px;
+        color: #626262;
+        line-height: 30px;
+        font-weight: 700;
+    }
+}
+
+.wrapper {
+    display: grid;
+    align-items: stretch;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: start;
+    padding-top: 12px;
+    &__1 {
+        margin: 0 auto;
+        width: 115px;
+        height: auto;
+        border-radius: 75px;
+        box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 30px;
+        color: $black;
+        font-family: $font-text;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}
+
+.button__green {
+    margin: 0 auto;
+    width: 184px;
+    height: 47.5px;
+    color: $white;
+    background-color: $color-primary;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 45px;
+    font-family: $font-main;
+    font-size: 20px;
+}
