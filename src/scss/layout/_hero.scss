@@ -7,6 +7,7 @@
   background-size: cover;
     @media (min-width: 768px) {
       height: 783.9px;
+      background-position: 65%;
     }
     @media (min-width: 1280px) {
      height: 868px;
@@ -23,18 +24,31 @@
   color: $white;
   margin: 0 auto;
   align-items: center;
+  @media (min-width: 768px) {
+    top: 419px;
+  }
    &--title {
     font-size: 30px;
     line-height: 50px;
     font-family: $font-text;
     font-weight: bold;
     text-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    @media (min-width: 768px) {
+      font-size: 75px;
+      line-height: 100px;
+      top: 419px;
+    }
    }
   &--p {
     font-size: 15px;
     font-family: $font-main;
     width: 243px;
     margin-top: 10px;
+    @media (min-width: 768px) {
+      font-size: 24px;
+      line-height: 28px;
+      width: 340.50px
+    }
   }
 }
 
@@ -47,8 +61,18 @@
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-    &--img {
+  @media (min-width: 768px) {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+  }
+    &__down--img {
       width: 16.9px;
       height: 9.9px;
+    @media (min-width: 768px) {
+          width: 25px;
+          height: 15px;
+          display: flex;
+        }
     }
 }

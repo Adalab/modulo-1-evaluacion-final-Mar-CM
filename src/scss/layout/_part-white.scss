@@ -2,18 +2,29 @@
     line-height: 30px;
     padding-top: 34px;
     padding-left: 13px;
-    
+    @media (min-width: 768px) {
+        padding-top: 37.3px;
+        padding-left: 37.1px;;
+      }
     &__subtitle {
         font-size: 14px;
         line-height: 30px;
         color: $color-primary;
         font-family: $font-main;
+        @media (min-width: 768px) {
+            font-size: 16px;
+          }
     }
     &__title {
         font-size: 22px;
         line-height: 30px;
+        font-weight: bold;
         color: $black;
         font-family: $font-text;
+        @media (min-width: 768px) {
+            font-size: 32px;
+            line-height: 45px;
+          }
     }
     &__p {
         font-size: 18px;
@@ -22,6 +33,13 @@
         padding-top: 10px;
         padding-right: 17px;
         padding-bottom: 42px;
+        @media (min-width: 768px) {
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 12.1px;
+            padding-bottom: 21.2px;
+            padding-right: 39.1px
+          }
     }
 }
 
@@ -31,14 +49,23 @@
     margin-bottom: 28px;
     width: 160px;
     height: 45px;
+    @media (min-width: 768px) {
+        padding-left: 39.1px;
+        margin-bottom: 51.5px;
+        width: 160.4px;
+        height: 45.4px;
+      }
     &__link {
+        display: flex;
         width: 100%;
         color: $color-primary;
-        border: solid 2px $color-primary;
+        border: solid 3px $color-primary;
         border-radius: 20px;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
         line-height: 45px;
         font-family: $font-main;
         font-size: 20px;
+        font-weight: 500;        
     }
 }
