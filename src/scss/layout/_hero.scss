@@ -9,9 +9,6 @@
       height: 783.9px;
       background-position: 65%;
     }
-    @media (min-width: 1280px) {
-     height: 868px;
-   }
 }
 
 .hero__text{
@@ -32,11 +29,14 @@
     line-height: 50px;
     font-family: $font-text;
     font-weight: bold;
-    text-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     @media (min-width: 768px) {
       font-size: 75px;
       line-height: 100px;
-      top: 419px;
+      width: 688.7px;
+      top: 420px;
+    }
+    @media (min-width: 1280px) {
     }
    }
   &--p {
@@ -48,6 +48,9 @@
       font-size: 24px;
       line-height: 28px;
       width: 340.50px
+    }
+    @media (min-width: 1280px) {
+      width: 567px;
     }
   }
 }
