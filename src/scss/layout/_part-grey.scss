@@ -85,3 +85,11 @@
     font-family: $font-main;
     font-size: 20px;
 }
+.button__green:hover {
+    transition: background-color 1.5s;
+    transition: color 1.5s;
+    transform: scale(1.5);
+    background-color: $white;
+    color: $color-primary;
+    border-radius: 20px;      
+  }

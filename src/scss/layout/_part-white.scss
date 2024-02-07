@@ -83,3 +83,15 @@
         font-weight: 500;        
     }
 }
+
+.buy:hover {
+  transition: background-color 1.5s;
+  transform: scale(1.5);
+  background-color: $color-primary;
+  border-radius: 20px;      
+}
+
+.buy__link:hover {
+transition: color 1.5s;
+color: $white;
+}
