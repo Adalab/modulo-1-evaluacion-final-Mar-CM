@@ -28,6 +28,9 @@ footer {
     color: white;
     display: block;
   }
+  & a:hover {
+      color: $color-primary; 
+      }
 }
 
 .box__2 {
@@ -40,6 +43,9 @@ footer {
     color: white;
     display: block;
   }
+  & a:hover {
+    color: $color-primary; 
+    }
 }
 
 .box__3 {
