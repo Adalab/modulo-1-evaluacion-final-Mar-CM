@@ -1,4 +1,6 @@
-# Primer examen individual 👏🏼
+# ¡PlanetDepot!🥎
+
+## Descripción 📝
 
 En este primero módulo, el **exámen de evaluación** a consistido en **replicar una página web de tienda de deporte para niños.**
 
@@ -10,11 +12,11 @@ He puesto en práctica los conocimientos aprendidos en las clases, junto con alg
 
 > **NOTA:** Algunos margenes y paddings han sido modificados para poder seguir la estética de la maquetación.
 
-## Construido con 🛠️
-- **HTML**
-- **CSS**
-- **GITHUB**
+## Tecnologías implementadas 🚧
+- **_HTML_**
+- **_CSS_**
+- **_gitHub_**
 
-## Cradora ✒️
+## Creadora ✒️
 
 - *Mar Caballero Moryno*
